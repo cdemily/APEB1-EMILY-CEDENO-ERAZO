@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTO</title>
+</head>
+<body>
+    <header>
+        <h1>RESEÑAS EN LA WEB</h1> 
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio | </a>
+        <a href="libros.html">Libros | </a>
+        <a href="peliculas.html">Películas | </a>
+        <a href="videojuegos.html">Videojuegos | </a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <article> 
+       <h2>RESEÑAS EN LA WEB: ESTAMOS LISTOS PARA ESCUCHARTE</h2>
+       <p>En nuestra sitio de reseñas, cada opinión cuenta. Ya sea que desees compartir tus pensamientos sobre un juego, película o un libro,
+        hacer preguntas o sugerir mejoras estamos aquí para ti. Tu experiencia para nosotros es valiosa.</p>
+      
+     </article>
+
+<article> 
+       <h2>¡Reseñas en la web se siente agradecido contigo!</h2>
+
+       <p>Agradecemos sinceramente tu interés en nuestro sitio y tu disposición para compartir tus pensamientos con nosotros. Cada mensaje 
+        que recibimos nos ayuda a mejorar y a ofrecer el contenido que realmente tenga mucho impacto con nuestros lectores. ¡Esperamos saber de ti pronto!</p>
+     <p>
+         Por favor, rellena el siguiente formulario y uno de nuestros representantes se comunicará contigo de inmediato </p>
+
+    <form>
+        <label for = "nombre"><b>Ingrese su nombre:</b></label>
+        <input type="text" placeholder="Escibe tu nombre" name="nombre" id="nombre" required>
+        <br><br>
+
+        <label for = "email"><b>Ingrese su correo eléctronico:</b></label>
+        <input type="email" placeholder="Escibe su correo eléctronico" name="email" id="email" required>
+        <br><br>
+        
+        <label for = "motivo"><b>Motivo del mensaje:</b></label>
+        <select  name="Motivo del mensaje" id="motivo" required>
+            <option value="" disabled selected>Seleccione una opción</option> 
+            <option value ="Sugerencia">Sugerencia</option>
+            <option value ="Comentario">Comentario</option>
+            <option value ="Reseña personal">Reseña personal</option>
+            <option value ="Reporte de error">Reporte de error</option>
+        </select>
+        <br><br>
+
+        <label for = "categoría"><b>Categoría:</b></label>
+        <select  name="Categoría" id="categoría" >
+            <option value="" disabled selected>Seleccione una opción</option> 
+            <option value ="libros">Libros</option>
+            <option value ="peliculas">Películas</option>
+            <option value ="videojuegos">Videojuegos</option>
+        </select>
+        <br><br>
+
+         <label for = "titulo"><b>Ingrese el título de su reseña</b></label>
+        <input type="text" placeholder="Escribe el título" name="titulo" id="titulo">
+        <br><br>
+
+        <label for="mensaje"><b>Mensaje:</b></label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <br><br>
+
+       <label>
+       <input type="checkbox" name="consentimiento" required>
+       Acepto los términos y condiciones y la política de privacidad </label>
+       <br><br>
+
+        <button type="submit">Enviar</button>
+        
+    </form>
+     </article>
+</body>
+</html>
